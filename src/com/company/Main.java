@@ -33,6 +33,5 @@ public class Main {
         gectiKaldi = ortalama>=60;
         System.out.println("Ortalama:"+ortalama);
         System.out.println("Sonuç:"+(gectiKaldi ? "geçti" : "kaldı"));
-
     }
 }
