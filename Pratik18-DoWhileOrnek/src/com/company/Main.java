@@ -11,10 +11,10 @@ public class Main {
         do {
             System.out.print("Sayınızı giriniz(Çıkmak için tek sayı girebilirsiniz):");
             sayi = scan.nextInt();
-            if (sayi%2==0){
+            if (sayi%4==0){
                 toplam+=sayi;
             }
-        }while (sayi%2==0);
+        }while (sayi%4==0);
         System.out.println("Girilen çift sayıların toplamı="+toplam);
 
     }
