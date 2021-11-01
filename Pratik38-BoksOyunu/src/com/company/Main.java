@@ -16,7 +16,7 @@ public class Main {
         health = random.nextInt(31)+70;
         damage = random.nextInt(10);
 
-        Fighter f2 = new Fighter("Mike Tyson",damage,health,90,100);
+        Fighter f2 = new Fighter("Mike Tyson",damage,health,90,20);
         Match m1 = new Match(f1,f2,80,100,sira);
 
         m1.run();
