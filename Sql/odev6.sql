@@ -1,0 +1,13 @@
+################### SORULAR ###################
+
+1-) film tablosunda bulunan rental_rate sütunundaki deðerlerin ortalamasý nedir?
+2-) film tablosunda bulunan filmlerden kaç tanesi 'C' karakteri ile baþlar?
+3-) film tablosunda bulunan filmlerden rental_rate deðeri 0.99 a eþit olan en uzun (length) film kaç dakikadýr?
+4-) film tablosunda bulunan filmlerin uzunluðu 150 dakikadan büyük olanlarýna ait kaç farklý replacement_cost deðeri vardýr?
+
+################### ÇÖZÜMLER ###################
+
+1-) SELECT AVG (rental_rate) FROM film
+2-) SELECT COUNT(*) FROM FILM WHERE title LIKE 'C%'
+3-) SELECT length FROM film WHERE rental_rate = 0.99 ORDER BY length DESC LIMIT 1
+4-) SELECT COUNT(DISTINCT replacement_cost) FROM FILM WHERE length > 150 
