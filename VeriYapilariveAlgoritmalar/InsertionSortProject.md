@@ -16,8 +16,12 @@ Step5 - [2,6,16,18,22,27]
 2-S)
 O(n²)
 
-Time Complexity: Average case: n2
+Time Complexity: 
+
+Average case: n2
+
 Worst case: n2
+
 Best case: n
 
 3-) Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? 
